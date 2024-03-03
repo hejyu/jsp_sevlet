@@ -1,0 +1,21 @@
+ul#p-ul {
+    display: inline;
+    list-style: none;
+    width : 66rem;
+    border-bottom: none;
+}
+
+ul#p-ul li.p-row ul.row { display: inline-block; width: inherit}
+ul#p-ul li.p-row ul.row > li { display: inline-block;padding: 0.5rem  0.02rem;
+    /* 컬럼(열)에 해당하는 li는 너비를 통일 */
+    width : 9rem;
+    /*border-bottom : 1px  dashed gray;*/
+}
+/* 첫번째 번호 컬럼은 너비를 15에서 2로 변경 */
+ul#p-ul li.p-row > li:first-child { width : 2rem; }
+/* 세번째 이름 컬럼은 너비를 15에서 10으로 변경 */
+ul#p-ul li.p-row > li:nth-child(3) { width : 10rem; }
+
+
+
+

@@ -1,0 +1,23 @@
+/* button */
+.btn{display: inline-block;height: 28px;line-height: 26px;padding: 0 16px;font-weight: bold;font-size: 13px;background-color: #fff;border: 1px solid #e1e1e1;border-radius: 4px;box-sizing: border-box;transition: background-color 0.2s, color 0.2s, border-color 0.2s;}
+.btn:hover{background-color: #F3F3F3;}
+.btn_ssmall{padding:0 8px;font-size: 11px;}
+.btn_small{padding:0 8px;font-size: 12px;}
+.btn_medium{height: 36px;}
+.btn_large {height: 50px;padding: 0 48px;}
+.btn_theme{background-color: #1E5DF8;border: 1px solid #1E5DF8;color: #fff;}
+.btn_theme:hover{background-color: #1152E1;border: 1px solid #1152E1;}
+.btn_dark{background-color: #45546B;border: 1px solid #45546B;color: #fff;}
+.btn_theme_line{background-color: #fff;border: 2px solid #1E5DF8;color: #1E5DF8; line-height:20px;}
+.btn_dark:hover{background-color: #3b485a;border: 1px solid #3b485a;color: #fff;}
+.btn_box_theme{background-color: #1E5DF8;color: #fff;border: none;line-height: 24px;}
+.btn_box_theme:hover{background-color:#1152E1;}
+.btn_box_dark{background-color: #fff;color: #45546B;border: 2px solid #45546B;line-height: 24px;}
+.btn_box_dark:hover{background-color: #fff;color: #262c36;border: 2px solid #262c36;}
+
+.btn_chocolate {background-color: #D2691E;border: 1px solid #D2691E;color: #fff;}
+.btn_chocolate:hover {background-color: #8B4513;border: 1px solid #1152E1;}
+.btn_pink {background-color: #FFC0CB;border: 1px solid #FFC0CB;color: #fff;}
+.btn_pink:hover {background-color: #FF69B4;border: 1px solid #FF69B4;}
+.btn_skyblue {background-color: #1E90FF;border: 1px solid #1E90FF;color: #fff;}
+.btn_skyblue:hover {background-color: #104E8B;border: 1px solid #104E8B;}

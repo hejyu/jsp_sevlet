@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/*** 글꼴 ****************************************/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+* {	box-sizing: border-box;  margin :0;  padding :0;  }
+body{
+    font-family: 'Roboto', 'Noto Sans KR';
+    letter-spacing: -0.02rem;
+    padding: 1rem;
+}
+
+/* 공통 */
+a{ text-decoration: none; }
+
+
+h2 {color: purple;}
+.profile > img {width : 30px;height: 30px;border-radius: 40%;object-fit:cover;}
+
+select,input {padding: 0.5rem  0.02rem;width : 12rem;}
+
+/* layout */
+.container_wrap { height: calc(100vh - 48px); padding:0; }
+
+.mb-0 { margin-bottom: 0 !important; }
+.mb-2 { margin-bottom: 2px !important; }
+.mb-4 { margin-bottom: 4px !important; }
+.mb-8 { margin-bottom: 8px !important; }
+.mb-10 { margin-bottom: 10px !important; }
+
+
+.mr-0 { margin-right: 0px !important; }
+.mr-2 { margin-right: 2px !important; }
+.mr-4 { margin-right: 4px !important; }
+.mr-8 { margin-right: 8px !important; }
+.mr-16 { margin-right: 16px !important; }
+
+.ml-0 { margin-left: 0 !important; }
+.ml-2 { margin-left: 2px !important; }
+.ml-4 { margin-left: 4px !important; }
+
+.mt-0 { margin-top: 0px !important; }
+.mt-2 { margin-top: 2px !important; }
+.mt-4 { margin-top: 4px !important; }
+.mt-12 { margin-top: 12px !important; }
+.mt-m2 { margin-top: -2px !important; }
+.mt-m3 { margin-top: -3px !important; }
+.mt-m5 { margin-top: -3px !important; }
+.mt-m6 { margin-top: -6px !important; }
+
+
+.p-0 { padding :0 !important; }
+
+.pb-0 { padding-bottom: 0 !important; }
+.pb-4 { padding-bottom: 4px !important; }
+
+.pl-0 { padding-left: 0 !important; }
+
+.pr-0 { padding-right: 0 !important; }
+
+.pt-0 { padding-top : 0 !important; }
+.pt-54 { padding-top: 54px !important }
+
+.bb-0 { border-bottom: 0 !important;}
+
+
+.flex-box { display: flex; flex-direction: column; align-items: center; }
+.jcc { justify-content: center; }
+.jce { justify-content:flex-end !important; }
+.dib { display:inline-block; }
+.disb { display: block !important; }
+
+.col { padding: 0 6px; }
+.col:first-child { padding-left: 0; }
+.col:last-child { padding-right: 0; }
+.col:last-child.pr-6 { padding-right: 6px; }
+.col_10 { width: 10%; }
+.col_20 { width: 20%; }
+.col_30 { width: 30%; }
+.col_33 { width: 33.333%; }
+.col_40 { width: 40%; }
+.col_50 { width: 50%; }
+.col_60 { width: 60%; }
+.col_70 { width: 70%; }
+.col_80 { width: 80%; }
+.col_90 { width: 90%; }
+.col_100 { width: 100%; }
+.col_leftFix { width: calc(100% - 514px); }
+.col_rightFix { width: 514px; }
+.col_leftFix_550 { width: calc(100% - 550px); }
+.col_rightFix_550 { width: 550px; }
+
+.board_wrap { padding: 0 12px; }
+
+/* 조회 조건*/
+.search_form { padding: 0.5rem  0.02rem; }
